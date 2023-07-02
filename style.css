@@ -1,0 +1,76 @@
+/*
+CSS task Requirements:
+-one font-family declaration
+-a hover pseudo-class (create a rollover effect for nav buttons)
+-float property to position at least one HTML element
+-absolute and relative positioning in at least one area of web page
+Include each of the following selectors:
+    -one element selector to style HTML elements
+    -one class selector that is used at least twice to style HTML elements
+    -one ID selector to format specific elements of a page
+*/
+
+
+img {
+    float: right;
+    width: 400px;
+    height: 200px;
+    padding: 8px;
+    border: 2px solid #000;
+}
+
+h2.logo{
+    color:brown;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    /*float: left;*/
+    padding-top: 10px;
+}
+
+h1{
+    color:brown;
+}
+
+/* Menu/Navigation items ---------------------------------- */
+.menu{
+    width: 400px;
+    float: top;
+    height: 70px;
+    padding-bottom: 20px;
+}
+
+ul{ 
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium';
+    font-weight: bold;
+    transition: 0.05s ease-in-out;
+}
+
+ul li a:hover{
+    color:aqua;
+}
+/*end Menu items --------------------------*/
+/*trying to change the size of the text box for the question input*/
+input.textbox{
+    height: 40px;
+    width: 50px;
+}
+/*submit button getting rid of underline*/
+.btn a{
+    text-decoration: none;
+}
