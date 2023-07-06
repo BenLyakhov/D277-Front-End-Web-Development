@@ -10,13 +10,20 @@ Include each of the following selectors:
     -one ID selector to format specific elements of a page
 */
 
+.main{
+    background: url(/images/biking\ trail\ edited.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
+    font-family: Arial;
+}
 
 img {
     float: right;
-    width: 400px;
-    height: 200px;
-    padding: 8px;
-    border: 2px solid #000;
+    width: 500px;
+    height: 300px;
+    border: 10px solid #000;
+    margin-right: 275px;
 }
 
 h2.logo{
@@ -24,7 +31,6 @@ h2.logo{
     font-size: 40px;
     font-family: 'Times New Roman';
     padding-left: 20px;
-    /*float: left;*/
     padding-top: 10px;
 }
 
@@ -37,7 +43,15 @@ h1{
     width: 400px;
     float: top;
     height: 70px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    background-color: blanchedalmond;
+    
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
 }
 
 ul{ 
@@ -45,13 +59,17 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: aquamarine;
+    padding-right: 100% ;
 }
 
 ul li{
     list-style: none;
     margin-left: 60px;
-    margin-top: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-size: 15px;
+    
 }
 
 ul li a{
@@ -67,10 +85,23 @@ ul li a:hover{
 /*end Menu items --------------------------*/
 /*trying to change the size of the text box for the question input*/
 input.textbox{
-    height: 40px;
-    width: 50px;
+    height: 200px;
+    width: 500px;
+}
+
+input{
+    width: 500px;
 }
 /*submit button getting rid of underline*/
 .btn a{
     text-decoration: none;
+}
+
+p{
+    background-color: beige;
+    padding-right: 20px;
+}
+
+ol{
+    background-color: beige;
 }
