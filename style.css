@@ -23,8 +23,10 @@ img {
     width: 500px;
     height: 300px;
     border: 10px solid #000;
-    margin-right: 225px;
+    /* margin-right: 225px; */
+    
 }
+
 
 h2.logo{
     color:brown;
@@ -49,9 +51,9 @@ h1{
 }
 
 .navbar{
-    width: 1200px;
+    width: 1000px;
     height: 75px;
-    margin: auto;
+    
 }
 
 ul{ 
@@ -60,7 +62,8 @@ ul{
     justify-content: center;
     align-items: center;
     background-color: aquamarine;
-    padding-right: 100% ;
+    padding-right: 100px;
+    
 }
 
 ul li{
@@ -99,9 +102,16 @@ input{
 
 p{
     background-color: beige;
-    padding-right: 20px;
+    /* width: 600px; */
+    float: top;
+    margin: auto;
+    padding-block: 10px;
 }
-
+table{
+    background-color: beige;
+}
 ol{
     background-color: beige;
+    width: 500px;
+
 }
