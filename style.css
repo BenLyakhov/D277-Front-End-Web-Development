@@ -23,7 +23,7 @@ img {
     width: 500px;
     height: 300px;
     border: 10px solid #000;
-    margin-right: 275px;
+    margin-right: 225px;
 }
 
 h2.logo{
@@ -80,7 +80,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color:aqua;
+    color:#ff2700;
 }
 /*end Menu items --------------------------*/
 /*trying to change the size of the text box for the question input*/
