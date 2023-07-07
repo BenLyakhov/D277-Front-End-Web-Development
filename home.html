@@ -71,22 +71,29 @@
                 <p>This is My website submission for class D277 Front End Web Development <br>
                     I am currently a complete beginner at this. <br>
                     Here is my submmission for this course. Still need to work on:
+                </p>
                         <ol>
                             <li>linking the different pages together</li>
                             <li>making the style look "cool"</li>
                             <li>maybe try to make a cool scrolling effect</li>
                         </ol><br>
-                        This is my first website that I ever made. hope you enjoy!
+                <p>
+                    This is my first website that I ever made. hope you enjoy!
                 </p>
 
                 <div class="form">
                     <h2>Any questions? shoot me an email:</h2>
                     <input type="firstname" name="firstname" placeholder="First Name"><br>
                     <input type="lastname" name="lastname" placeholder="Last Name"><br>
-                    <input type="email" name="email" placeholder="Enter Email Here"><br>
-                    <input type="confirmEmail" name="confirmEmail" placeholder="Confirm Email"><br>
+                    <input type="email" id="email" placeholder="Enter Email Here"><br>
+                    <input type="confirmEmail" id="confirmEmail" placeholder="Confirm Email"><br>
                     <input class="textbox" type="text" name="text" placeholder="Input text here"><br>
-                    <button class="btn"><a href="#">Submit</a></button>
+                    <p id="message"></p>
+                    <input type="button" onclick="validateEmail()" value="SUBMIT"/>
+                    <!-- <button class="btn"><a href="#">Submit</a></button> -->
+<!--changed name=  to id= for email stuff
+watched this youtube video for the email validation feature:
+https://www.youtube.com/watch?v=_wIoWVQa5to-->
                 </div>
             </div>
         </div>

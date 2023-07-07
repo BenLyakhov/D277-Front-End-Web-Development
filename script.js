@@ -4,11 +4,18 @@
 const email = document.getElementById('email');
 const confirmEmail = document.getElementById('confirmEmail');
 
-const validateInputs = () => {
+function validateEmail() {
     const emailValue = email.value;
     const confirmEmailValue = confirmEmail.value;
 
-    if(emailValue !== confirmEmailValue) {
-console.log("Emails don't match");
+    console.log(email,confirmEmail);
+    let message = document.getElementById("message");
+    if(email.length !=0) {
+        if(emailValue == confirmEmailValue) {
+            message.textContent = "emails match";
+    }
+    else {
+        message.textContent = "emails don't match";
+    }
     }
 }
