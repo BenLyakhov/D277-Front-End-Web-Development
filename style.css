@@ -26,9 +26,12 @@ img {
     height: 300px;
     border: 10px solid #000;
     /* margin-right: 225px; */
-    
 }
 
+.homepagepic{
+    float: left;
+    border: none;
+}
 
 h2.logo{
     color:brown;
@@ -38,7 +41,7 @@ h2.logo{
     padding-top: 10px;
 }
 
-h1{
+h1,h2{
     color:brown;
 }
 
@@ -106,8 +109,11 @@ p{
     background-color: beige;
     /* width: 600px; */
     float: top;
-    margin: auto;
+    /* margin: auto; */
     padding-block: 10px;
+}
+p.message{
+    width: 100px;
 }
 table{
     background-color: beige;
@@ -115,13 +121,15 @@ table{
     }
 /* table.tr{
     border: 5px solid #ff2700;
-} */
-th{
+} 
+ th{
     justify-content: center;
     align-items: center;
-}
+} */
 ol{
     background-color: beige;
-    width: 500px;
+    padding-block: 10px;
+    padding-left: 10px;
+    
 
 }

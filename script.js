@@ -13,9 +13,11 @@ function validateEmail() {
     if(email.length !=0) {
         if(emailValue == confirmEmailValue) {
             message.textContent = "emails match";
+            message.style.backgroundColor = "#3ae374";
     }
     else {
         message.textContent = "emails don't match";
+        message.style.backgroundColor = "#ff4d4d";
     }
     }
 }
