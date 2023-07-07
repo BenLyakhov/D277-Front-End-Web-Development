@@ -8,6 +8,8 @@ Include each of the following selectors:
     -one element selector to style HTML elements
     -one class selector that is used at least twice to style HTML elements
     -one ID selector to format specific elements of a page
+
+    look up what these selectors are
 */
 
 .main{
@@ -109,6 +111,14 @@ p{
 }
 table{
     background-color: beige;
+    border: 5px solid #ff2700;
+    }
+/* table.tr{
+    border: 5px solid #ff2700;
+} */
+th{
+    justify-content: center;
+    align-items: center;
 }
 ol{
     background-color: beige;
