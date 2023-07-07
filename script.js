@@ -8,7 +8,7 @@ function validateEmail() {
     const emailValue = email.value;
     const confirmEmailValue = confirmEmail.value;
 
-    console.log(email,confirmEmail);
+    //console.log(email,confirmEmail);
     let message = document.getElementById("message");
     if(email.length !=0) {
         if(emailValue == confirmEmailValue) {
